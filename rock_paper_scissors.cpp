@@ -5,7 +5,7 @@ int main(){
   
   //Long live and prosper
   srand (time(NULL));
-  int computer = rand() % 3 + 1;
+  int computer = rand() % 4;
   
   int user = 0;
   
