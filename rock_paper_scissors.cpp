@@ -3,7 +3,10 @@
 
 int main(){
   
-  //Long live and prosper
+  int count = 1;
+  while(count > 0)
+  {
+    //Long live and prosper
   srand (time(NULL));
   int computer = rand() % 4;
   
@@ -82,5 +85,6 @@ int main(){
       
     }
     
+  }
   }
 }
